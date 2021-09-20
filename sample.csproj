@@ -7,8 +7,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AWSXRayRecorder.Core">
+      <Version>2.10.1</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AWSXRayRecorder.Handlers.SqlServer">
       <Version>2.7.3</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers">
+      <Version>5.0.3</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers">
+      <Version>1.1.118</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient">
+      <Version>4.8.3</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encodings.Web">
+      <Version>4.5.1</Version>
     </PackageReference>
   </ItemGroup>
 
